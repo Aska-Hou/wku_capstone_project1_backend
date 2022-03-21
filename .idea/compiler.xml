@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="recomm" target="1.7" />
+      <module name="recomm" target="6" />
       <module name="recommendation" target="1.7" />
     </bytecodeTargetLevel>
   </component>

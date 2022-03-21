@@ -12,6 +12,7 @@ public class StudentServiceImpl implements StudentService {
         this.studentDao = studentDao;
     }
 
+    @Override
     public Student login(String name, String password){
         return studentDao.login(name,password);
     }
