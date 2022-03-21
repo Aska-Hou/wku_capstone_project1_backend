@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="recomm:war">
+    <output-path>$PROJECT_DIR$/recomm/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>recomm</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="recomm-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="recomm:war exploded" />
+    </root>
+  </artifact>
+</component>
